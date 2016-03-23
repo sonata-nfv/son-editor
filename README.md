@@ -10,6 +10,20 @@ To contribute to the development of the SONATA editor, you may use the very same
 
 You may contribute to the editor similar to other SONATA (sub-) projects, i.e. by creating pull requests.
 
+#### Building
+
+The SONATA editor is written in Java and uses the Maven build tool. Thus, you can build the whole editor by typing:
+
+```
+ $ mvn clean package
+```
+
+In addition (and because I am a lazy person), there is a Makefile that allows you to build the whole projects, and also sub-projects, like the *-cli and *-web sub-projects, individually.
+
+```
+ $ make son-validate-cli
+```
+
 ---
 #### Lead Developers
 
