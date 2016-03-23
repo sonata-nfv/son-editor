@@ -49,5 +49,12 @@ POST: /validate - application/json
 ```
 
 The service responds with OK (Status 200) if the JSON meets the given
-schema. It returns with an error code (Status 4xx) if something went
+schema. It returns an error code (Status 4xx) if something went
 wrong.
+
+For an example you might want to use _curl_: 
+
+```
+curl -vX POST http://${HOST}:${PORT}/validate -d @../resources/data.json --header "Content-Type: application/json"
+```
+
