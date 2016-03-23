@@ -11,8 +11,10 @@ local.properties
 .loadpath
 .recommenders
 
+**/target/
+
 # IntelliJ files
-./idea
+.idea/
 *.iws
 *.iml
 .idea_modules/
