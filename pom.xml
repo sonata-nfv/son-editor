@@ -49,15 +49,15 @@
     </build>
 
     <modules>
-        <!--
         <module>son-convert</module>
+        <!--
         <module>son-convert-cli</module>
         <module>son-convert-web</module>
         <module>son-convert-thrift</module>
         -->
         <module>son-validate</module>
-        <!--
         <module>son-validate-cli</module>
+        <!--
         <module>son-validate-web</module>
         <module>son-bundle</module>
         -->
