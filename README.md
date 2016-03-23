@@ -16,3 +16,7 @@ You may contribute to the schema files similar to other SONATA (sub-) projects, 
 The following lead developers are responsible for this repository and have admin rights. They can, for example, merge pull requests.
 
 - Michael Bredel (mbredel)
+
+#### License
+
+The license of the SONATA editor is BSD for now. However, we intend to change it to Apache 2.0 later.
