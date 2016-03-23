@@ -55,6 +55,6 @@ wrong.
 For an example you might want to use _curl_: 
 
 ```
-curl -vX POST http://${HOST}:${PORT}/validate -d @../resources/data.json --header "Content-Type: application/json"
+curl -vX POST http://localhost:4567/validate -d @../resources/data.json --header "Content-Type: application/json"
 ```
 
