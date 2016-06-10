@@ -5,6 +5,7 @@
 *.swp
 *~.nib
 *.sic
+*.deb
 *.*~
 local.properties
 .settings/
