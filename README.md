@@ -24,6 +24,22 @@ In addition (and because I am a lazy person), there is a Makefile that allows yo
  $ make son-validate-cli
 ```
 
+#### Libraries
+
+The son-editor relies on some great libraries that have been written before. Below you can find a list of these libraries including their version and license.
+
+* [Logback 1.1.3](http://logback.qos.ch/) (EPL 1.0)
+* [Apache Commons CLI](https://commons.apache.org/proper/commons-cli/) 1.3.1 (Apache 2.0)
+* [Apache Commons IO](https://commons.apache.org/proper/commons-io/) 2.4 (Apache 2.0)
+* [JUnit](http://junit.org) 4.12 (EPL 1.0) 
+* [Google Guice DI](https://github.com/google/guice) 4.0 (Apache 2.0)
+* [Guice JUnit Test Runner](https://github.com/caarlos0/guice-junit-test-runner) 1.1 (MIT)
+* [SnakeYAML](https://bitbucket.org/asomov/snakeyaml) 1.16 (Apache 2.0)
+* [JSON-Java](https://github.com/stleary/JSON-java) 20160212 ([The JSON License](http://www.json.org/license.html))
+* [JSON-Sanitizer](https://www.owasp.org/index.php/OWASP_JSON_Sanitizer) 1.1 (Apache 2.0)
+* [JSON Schema Validator](http://www.everit.org/) 1.1.1 (Apache 2.0)
+* [Spark Core](http://sparkjava.com/) 2.3 (Apache 2.0)
+
 ---
 #### Lead Developers
 
