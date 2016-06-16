@@ -24,7 +24,7 @@ In addition (and because I am a lazy person), there is a Makefile that allows yo
  $ make son-validate-cli
 ```
 
-#### Libraries
+#### Dependencies
 
 The son-editor relies on some great libraries that have been written before. Below you can find a list of these libraries including their version and license.
 
@@ -38,6 +38,7 @@ The son-editor relies on some great libraries that have been written before. Bel
 * [JSON-Java](https://github.com/stleary/JSON-java) 20160212 ([The JSON License](http://www.json.org/license.html))
 * [JSON-Sanitizer](https://www.owasp.org/index.php/OWASP_JSON_Sanitizer) 1.1 (Apache 2.0)
 * [JSON Schema Validator](http://www.everit.org/) 1.1.1 (Apache 2.0)
+* [FasterXML Jackson](https://github.com/FasterXML/jackson) 2.7.1 (Apache 2.0)
 * [Spark Core](http://sparkjava.com/) 2.3 (Apache 2.0)
 
 ---
