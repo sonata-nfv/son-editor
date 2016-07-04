@@ -8,7 +8,7 @@
 ##
 
 all:
-	mvn clean compile install
+	mvn clean compile
 
 son-validate-cli:
 	mvn clean package -am -pl son-validate-cli
@@ -22,6 +22,13 @@ install-son-validate-cli:
 	@cp son-validate-cli/src/main/bash/son-validate /usr/bin/
 	@sed -i -- 's/$${BASE_DIR}\/..\/..\/..\/target/\/opt\/son-editor/g' /usr/bin/son-validate
 
+uninstall-son-validate-cli:
+	@rm -f /opt/son-editor/sonvalidate-cli-*jar
+	@rmdir /opt/son-editor
+	@rm -f /usr/bin/son-validate
+
 install: install-son-validate-cli
+
+uninstall: uninstall-son-validate-cli
 
 .PHONY: all son-validate-cli son-validate-web
