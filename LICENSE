@@ -1,5 +1,5 @@
-Copyright (c) 2016, NEC, SONATA-NFV
-All rights reserved.
+Copyright (c) 2015, SONATA-NFV, NEC
+ALL RIGHTS RESERVED.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -25,3 +25,13 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Neither the name of the SONATA-NFV or NEC nor the names of its contributors
+may be used to endorse or promote  products derived from this software without
+specific prior written permission.
+
+This work has been performed in the framework of the SONATA project,
+funded by the European Commission under Grant number 671517 through 
+the Horizon 2020 and 5G-PPP programmes. The authors would like to 
+acknowledge the contributions of their colleagues of the SONATA 
+partner consortium (www.sonata-nfv.eu).
