@@ -40,6 +40,11 @@ The son-editor relies on some great libraries that have been written before. Bel
 * [JSON Schema Validator](http://www.everit.org/) 1.1.1 (Apache 2.0)
 * [FasterXML Jackson](https://github.com/FasterXML/jackson) 2.7.1 (Apache 2.0)
 * [Spark Core](http://sparkjava.com/) 2.3 (Apache 2.0)
+ 
+
+## License
+
+The license of the SONATA editor is BSD for now. However, we intend to change it to Apache 2.0 later.
 
 ---
 #### Lead Developers
@@ -48,7 +53,7 @@ The following lead developers are responsible for this repository and have admin
 
 - Michael Bredel (mbredel)
 
----
-#### License
+#### Feedback Channel
 
-The license of the SONATA editor is BSD for now. However, we intend to change it to Apache 2.0 later.
+Please use the GitHub issues and the SONATA development mailing list sonata-dev@lists.atosresearch.eu for feedback.
+
