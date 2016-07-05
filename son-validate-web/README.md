@@ -8,12 +8,10 @@ against that schema. You may also provide your own schema, which
 overrides the previous actions. The provided schema file must meet the 
 JSON-Schema Draft-04 standard.
 
+## Usage
+
 You may find a bash script that runs starts the son-validate-web service
-in './src/main/bash'.
-
-### Usage
-
-To start the web service you may type:
+in './src/main/bash'. To start the web service you may type:
 
 ```
 usage: son-validate-web [OPTIONS]
