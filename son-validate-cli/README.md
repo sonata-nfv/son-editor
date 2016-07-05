@@ -6,9 +6,9 @@ JSON-Schema Draft-04. If the YAML/JSON file to check has provides a _$schema_-ke
 that schema. You may also provide your own schema, which overrides the previous actions. The provided schema file
 must meet the JSON-Schema Draft-04 standard.
 
-You may find a bash script that runs son-validate in './src/main/bash'.
+## Usage
 
-### Usage
+You may find a bash script that runs son-validate in './src/main/bash'.
 
 ```
 usage: son-validate [OPTIONS] FILE
