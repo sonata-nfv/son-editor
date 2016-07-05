@@ -41,6 +41,10 @@ The son-editor relies on some great libraries that have been written before. Bel
 * [FasterXML Jackson](https://github.com/FasterXML/jackson) 2.7.1 (Apache 2.0)
 * [Spark Core](http://sparkjava.com/) 2.3 (Apache 2.0)
  
+## Usage
+
+You may find examples on how to use the different tools in the corresponding sub-directories.
+
 
 ## License
 
