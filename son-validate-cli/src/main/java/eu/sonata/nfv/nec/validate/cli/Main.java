@@ -30,6 +30,7 @@ import org.apache.commons.io.IOUtils;
 import org.json.JSONObject;
 import org.slf4j.LoggerFactory;
 import javax.annotation.Nonnull;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
@@ -458,9 +459,13 @@ public class Main {
      * @return A normalized path string.
      */
     private static String normalizePath(String path) {
-        if (path != null)
-            return "./" + Paths.get(path).normalize().toString();
-        else
+        if (path != null) {
+            path = Paths.get(path).normalize().toString();
+            if (!path.startsWith(File.separator))
+                path = "." + File.separator + path;
+            return path;
+        } else {
             return null;
+        }
     }
 }
