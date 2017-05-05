@@ -1,4 +1,4 @@
-# son-editor [![Build Status](http://jenkins.sonata-nfv.eu/buildStatus/icon?job=son-editor)](http://jenkins.sonata-nfv.eu/job/son-editor/)
+# son-editor [![Build Status](https://jenkins.sonata-nfv.eu/buildStatus/icon?job=son-editor)](https://jenkins.sonata-nfv.eu/job/son-editor/)
 
 For the SONATA editor we envision an Eclipse or IntelliJ plugin that supports function and service developers. This, however, is our vision on the long run. For now, this repository contains some Java libraries and tools that validate SONATA descriptors using the SONATA schema.
 
